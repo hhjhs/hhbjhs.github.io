@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Form 001-02_05s</title>
+</head>
+<body>
+    <iframe id="my-google-form" 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSft7gW-TMlrMQ29FZhU-OQOZe6meWse0GhVTvGvAGsDkabOPg/viewform?usp=sf_link"
+    width="1500"
+    height="1000">Loading...</iframe>
+    
+    <script type="text/javascript">
+        var load = 0;
+        document.getElementById('my-google-form').onload = function () {
+            // Execute on every reload on iFrame
+            load++;
+            if (load > 2) {
+                // Second reload is a submit
+                document.location = "https://hhjhs.github.io/hhbjhs.github.io/portal.html";
+            }
+        }
+    </script>
+</body>
+</html>
